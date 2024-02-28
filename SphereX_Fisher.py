@@ -1,9 +1,9 @@
 # SPHEREx with wb,wcdm,h,ns,H(z),Da(z),Psn(z),b(z),f(z) as parameters
 
-
-# separo le celle con tre righe di cancelletti
-# nelle celle iniziali definisco tutte le funzioni
-# la cella che effettivamente avvia il codice è quella indicata con tre righe di X
+# this code is intended to work in Jupyter Notebook
+# I'm using hashtags to indicate the separation between cells
+# in the initial cells I am defining all the functions
+# the cell which actually starts the Fisher is that indicated by three rows of X
 
 from classy import Class
 import numpy as np
